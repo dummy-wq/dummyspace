@@ -7,7 +7,7 @@ export default async function RecentPosts() {
 
   return (
     <div className="my-12">
-      <h2 className=" text-xl p-4 text-amber-100 font-semibold mb-4 bg-red-700 ">Things I&apos;ve written
+      <h2 className=" text-xl p-4 text-amber-100 font-extrabold mb-4 bg-red-700  ">Things I&apos;ve written
       </h2>
       <div className="flex flex-col gap-20">
         {recentPosts.map((post) => (
@@ -17,8 +17,8 @@ export default async function RecentPosts() {
             target="_blank" 
             className="p-4 bg-amber-200 hover:bg-amber-400 transition-colors"
           >
-            <h3 className=" text-lg text-purple-800 text-center">{post.title}</h3>
-            <p className="text-xs font-stretch-semi-condensed text-black  text-right">
+            <h3 className="text-xl text-purple-800 text-center hover:underline ">{post.title}</h3>
+            <p className=" text-xs text-black text-right">
               {new Date(post.pubDate || '').toLocaleDateString()}
             </p>
           </a>
