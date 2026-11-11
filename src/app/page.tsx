@@ -3,8 +3,8 @@ import Paintings from "../components/Paintings";
 
 export default function Home() {
   return (
-    <main className="max-w-7xl p-5 mx-auto">
-      <h1 className="text-7xl font-extrabold mb-1 inline-block scale-x-125 origin-left text-blue-700">dummyspace</h1>
+    <main className="max-w-7xl p-2 mx-auto ml-2 md:ml-2">
+      <h1 className="text-7xl font-extrabold inline-block scale-x-125 origin-left text-blue-700">dummyspace</h1>
       <p className="text-md mt-2 mb-15 text-black-700"> Here&apos;s a bunch of cool things! My paintings, writing, maybe music and my code!
       </p>
       <div className="flex flex-col md:flex-row gap-28">
