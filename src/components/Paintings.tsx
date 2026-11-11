@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Paintings() {
   return (
     <div>
-      <h2 className="bg-cyan-800 text-amber-100 text-xl p-4 font-semibold mb-4">
+      <h2 className="bg-cyan-800 text-amber-100 text-xl p-4 font-semibold mb-4 mt-20">
         Things I&apos;ve painted
       </h2>
 
