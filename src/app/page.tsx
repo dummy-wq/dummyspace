@@ -3,7 +3,7 @@ import Paintings from "../components/Paintings";
 
 export default function Home() {
   return (
-    <main className="max-w-10xl p-1 mx-auto">
+    <main className="max-w-7xl p-10 mx-auto">
       <h1 className="text-7xl font-extrabold mb-1 inline-block scale-x-125 origin-left text-blue-700">dummyspace</h1>
       <p className="text-md  mb-15 text-black-700"> Here&apos;s a bunch of cool things! My paintings, writing, maybe music and my code!
       </p>
@@ -17,7 +17,7 @@ export default function Home() {
             href="https://github.com/dummy-wq"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-amber-200 mb-5 p-1 block ml-20 text-right text-cyan-800 hover:underline hover:text-blue-700 hover:bg-amber-400 transition-colors"
+            className="bg-amber-200 mb-5 p-1 block ml-10 text-right text-cyan-800 hover:underline hover:text-blue-700 hover:bg-amber-400 transition-colors"
           >
             My GitHub ↗
           </a>
@@ -26,16 +26,16 @@ export default function Home() {
             href="https://dummymanwrites.substack.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-amber-200 p-2 mb-5 ml-20 block text-right text-cyan-800 hover:underline hover:text-blue-700 hover:bg-amber-400 transition-colors"
+            className="bg-amber-200 p-2 mb-5 ml-10 block text-right text-cyan-800 hover:underline hover:text-blue-700 hover:bg-amber-400 transition-colors"
           >
-            My Substack ↗
+            My Substack(go on and subscribe!) ↗
           </a>
 
           <a
             href="https://open.spotify.com/user/konig.zitrone?si=ec602ebff2c14d16/"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-amber-200 mb-5 ml-20 p-2 block text-right text-cyan-800 hover:underline hover:text-blue-700 hover:bg-amber-400 transition-colors"
+            className="bg-amber-200 mb-5 ml-10 p-2 block text-right text-cyan-800 hover:underline hover:text-blue-700 hover:bg-amber-400 transition-colors"
           >
             My Spotify↗
 
