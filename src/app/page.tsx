@@ -29,7 +29,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="bg-amber-200 md:p-2 mb-5 block text-left md:text-right text-cyan-800 hover:underline hover:text-blue-700 hover:bg-amber-400 transition-colors"
           >
-            My Substack↗ <p className="text-xs opacity-80">I command you to subsribe</p>
+            My Substack↗ <p className="text-xs opacity-80">I command you to subscribe</p>
           </a>
 
           <a
