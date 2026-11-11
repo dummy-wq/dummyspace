@@ -17,7 +17,7 @@ export default function Home() {
             href="https://github.com/dummy-wq"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-amber-200 mb-5 p-1 block ml-10 text-right text-cyan-800 hover:underline hover:text-blue-700 hover:bg-amber-400 transition-colors"
+            className="bg-amber-200 mb-5 block p-2 ml-2 md:ml-2 text-left md:text-right text-cyan-800 hover:underline hover:text-blue-700 hover:bg-amber-400 transition-colors"
           >
             My GitHub ↗
           </a>
@@ -26,7 +26,7 @@ export default function Home() {
             href="https://dummymanwrites.substack.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-amber-200 p-2 mb-5 ml-10 block text-right text-cyan-800 hover:underline hover:text-blue-700 hover:bg-amber-400 transition-colors"
+            className="bg-amber-200 p-2 mb-5 ml-2 md:ml-2 block text-left md:text-right text-cyan-800 hover:underline hover:text-blue-700 hover:bg-amber-400 transition-colors"
           >
             My Substack(go on and subscribe!) ↗
           </a>
@@ -35,7 +35,7 @@ export default function Home() {
             href="https://open.spotify.com/user/konig.zitrone?si=ec602ebff2c14d16/"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-amber-200 mb-5 ml-10 p-2 block text-right text-cyan-800 hover:underline hover:text-blue-700 hover:bg-amber-400 transition-colors"
+            className="bg-amber-200 mb-5 ml-2 md:ml-2 p-2 block text-left md:text-right text-cyan-800 hover:underline hover:text-blue-700 hover:bg-amber-400 transition-colors"
           >
             My Spotify↗
 
