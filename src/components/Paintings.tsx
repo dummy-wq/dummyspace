@@ -7,7 +7,7 @@ export default function Paintings() {
         Things I&apos;ve painted
       </h2>
 
-      <div className="grid grid-cols-8 gap-2" >
+      <div className="grid grid-cols-9 gap-10" >
 
         <div className="bg-amber-200 p-4 mt-4 hover:bg-amber-400 transition-colors hover:underline col-span-2 flex flex-col items-center justify-center">
             <Image src="/paintings/untitled-1.jpg" alt="untitled-1" width={200} height={100} className="max-h-70" />
