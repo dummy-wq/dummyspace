@@ -1,6 +1,11 @@
 import RecentPosts from "../components/RecentPosts";
 import Paintings from "../components/Paintings";
 
+export const metadata = {
+  title: 'dummyspace',
+  description: 'A collection of my paintings, writing, music and code.',
+}
+
 export default function Home() {
   return (
     <main className="max-w-7xl p-2 mx-auto ml-2 md:ml-2">
