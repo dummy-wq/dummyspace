@@ -20,7 +20,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${inter.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col font-mono bg-amber-100 scale-95">{children}</body>
+      <body className="min-h-full flex flex-col font-mono bg-amber-100 scale-95">
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
